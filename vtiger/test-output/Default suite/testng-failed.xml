@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="vtiger.opportunity_module.ToCreateOpportunityTest">
+        <methods>
+          <include name="bsConfig"/>
+          <include name="toCreateAnOpportunityWithOrganizationAndCampaignDetails"/>
+          <include name="acConfig"/>
+          <include name="as"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="amConfig"/>
+        </methods>
+      </class> <!-- vtiger.opportunity_module.ToCreateOpportunityTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

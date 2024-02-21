@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Test1(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="vtiger.opportunity_module.ToCreateOpportunityTest">
+        <methods>
+          <include name="bsConfig"/>
+          <include name="toCreateAnOpportunityWithOrganizationAndCampaignDetails"/>
+          <include name="acConfig"/>
+          <include name="as"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="amConfig"/>
+        </methods>
+      </class> <!-- vtiger.opportunity_module.ToCreateOpportunityTest -->
+      <class name="vtiger.lead_module.ToCreateALeadTest">
+        <methods>
+          <include name="toCreateALeadAndToVerifyTheLeadInfo"/>
+          <include name="bsConfig"/>
+          <include name="acConfig"/>
+          <include name="as"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="amConfig"/>
+        </methods>
+      </class> <!-- vtiger.lead_module.ToCreateALeadTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test3(failed)" verbose="0">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="vtiger.opportunity_module.ToCreateOpportunityTest">
+        <methods>
+          <include name="bsConfig"/>
+          <include name="toCreateAnOpportunityWithOrganizationAndCampaignDetails"/>
+          <include name="acConfig"/>
+          <include name="as"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="amConfig"/>
+        </methods>
+      </class> <!-- vtiger.opportunity_module.ToCreateOpportunityTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="vtiger.opportunity_module.ToCreateOpportunityTest">
+        <methods>
+          <include name="bsConfig"/>
+          <include name="toCreateAnOpportunityWithOrganizationAndCampaignDetails"/>
+          <include name="acConfig"/>
+          <include name="as"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="amConfig"/>
+        </methods>
+      </class> <!-- vtiger.opportunity_module.ToCreateOpportunityTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
