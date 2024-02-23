@@ -6,6 +6,8 @@ public class ClassA {
 
 		System.out.println("These are the changes");
 				System.out.println("These are new changes");
+						System.out.println("These are new changes *&");
+
 
 	}
 
